@@ -2,11 +2,10 @@
 ----
 
 <div align="center">
-  <img src="https://github.com/AkinYoungSoftware/TgEglenceBot/raw/master/logo.png" width="300" height="300">
   <h1>Telegram Doğruluk mu? Cesaret mi? Oyun Botu</h1>
 </div>
 <p align="center">
-        <a href="https://telegram.dog/TgEglence_Bot">~Bot~</a>
+        <a href="https://telegram.dog/JacDc_Bot">~Bot~</a>
 </p>
 
 ----
@@ -16,7 +15,7 @@
 
 # Heroku'da Clonlamak
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AkinYoungSoftware/TgEglenceBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Wenxtry/jacquel1nbot)
 
 ## Alanları Doldurma
 * ``BOT_TOKEN``: Botunuzun tokeni t.me/botfather alınız!
@@ -41,12 +40,12 @@ async def _(client, message):
 ```
 
 # İletişim
-Şikayet, bağış v.b. için benim ile telegram'dan iletişime geç [@YoungSoftware](https://t.me/YoungSoftware)
+Şikayet, bağış v.b. için benim ile telegram'dan iletişime geç [@jacquel1n](https://t.me/jacquel1n)
 
 
 # Credit
 Thanks for;
 
-[Akın](https://github.com/AkinYoungSoftware)
+[Jacquel1n](https://github.com/Wenxtry)
 
-[Dan](https://telegram.dog/haskell) [Pyrogram Library](https://github.com/pyrogram/pyrogram) Kütüphanesi için
+[Pyrogram Library](https://github.com/pyrogram/pyrogram) Kütüphanesi için
