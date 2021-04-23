@@ -101,7 +101,7 @@ async def _(client, message):
   global MOD
   user = message.from_user
   
-  if user.id not in OWNER_IDD:
+  if user.id not in OWNER_ID:
     await message.reply_text("**[⚠]** **Sen Yetkili Birisi degilsin!!**")
     return
   MOD="cekle"
@@ -112,7 +112,7 @@ async def _(client, message):
   global MOD
   user = message.from_user
   
-  if user.id not in OWNER_IDD:
+  if user.id not in OWNER_ID:
     await message.reply_text("**[⚠]** **Sen Yetkili Birisi degilsin!!**")
     return
   MOD="cekle"
@@ -126,7 +126,7 @@ async def _(client, message):
   
   user = message.from_user
   
-  if user.id in OWNER_IDD:
+  if user.id in OWNER_ID:
     if MOD=="cekle":
       C_LİST.append(str(message.text))
       MOD=None
