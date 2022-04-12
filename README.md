@@ -15,7 +15,7 @@
 
 # Heroku'da Clonlamak
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Wenxtry/jacquel1nbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Vonaista/RapidDcBot)
 
 ## Alanları Doldurma
 * ``BOT_TOKEN``: Botunuzun tokeni t.me/botfather alınız!
@@ -40,12 +40,12 @@ async def _(client, message):
 ```
 
 # İletişim
-Şikayet, bağış v.b. için benim ile telegram'dan iletişime geç [@jacquel1n](https://t.me/jacquel1n)
+Şikayet, bağış v.b. için benim ile telegram'dan iletişime geç [@EfsaneLions](https://t.me/EfsaneLions)
 
 
 # Credit
 Thanks for;
 
-[Jacquel1n](https://github.com/Wenxtry)
+[Vonaista](https://github.com/Vonaista)
 
 [Pyrogram Library](https://github.com/pyrogram/pyrogram) Kütüphanesi için
