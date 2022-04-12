@@ -46,8 +46,8 @@ async def _(client, message):
 
 # Dc Komutu İcin Olan Buttonlar
 def d_or_c(user_id):
-	BUTTON = [[InlineKeyboardButton(text="Doğruluk Mu", callback_data = " ".join(["d_data",str(user_id)]))]]
-	BUTTON += [[InlineKeyboardButton(text="Cesaret Mi", callback_data = " ".join(["c_data",str(user_id)]))]]
+	BUTTON = [[InlineKeyboardButton(text="Doğruluk Sorusu Sor", callback_data = " ".join(["d_data",str(user_id)]))]]
+	BUTTON += [[InlineKeyboardButton(text="Cesaretli misin? ", callback_data = " ".join(["c_data",str(user_id)]))]]
 	return InlineKeyboardMarkup(BUTTON)
 
 # Dc Komutunu Oluşturalım
@@ -77,7 +77,7 @@ async def _(client, callback_query):
 				chat_id=callback_query.message.chat.id,
 				message_ids=callback_query.message.message_id) # Eski Mesajı Silelim
 
-			await callback_query.message.reply_text("**Doğruluk Sorusu: ** __{d_soru}__".format(user=user.mention, d_soru=d_soru)) # Sonra Kullanıcıyı Etiketleyerek Sorusunu Gönderelim
+			await callback_query.message.reply_text("**💎Doğruluk: ** __{d_soru}__".format(user=user.mention, d_soru=d_soru)) # Sonra Kullanıcıyı Etiketleyerek Sorusunu Gönderelim
 			return
 
 		if c_q_d == "c_data":
@@ -85,7 +85,7 @@ async def _(client, callback_query):
 			await client.delete_messages(
 				chat_id=callback_query.message.chat.id,
 				message_ids=callback_query.message.message_id)
-			await callback_query.message.reply_text("**{user} Cesaret Sorusu İstedi Bakalım Bunu Yapabilecek misin!:** __{c_soru}__".format(user=user.mention, c_soru=c_soru))
+			await callback_query.message.reply_text("**{user} Ooo Çok Cesursun. Bunu Yapta Görelim😈 Yapamazsan Korkak Tavuksun🐔:** __{c_soru}__".format(user=user.mention, c_soru=c_soru))
 			return
 
 
