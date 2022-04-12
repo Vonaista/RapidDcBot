@@ -5,7 +5,7 @@
   <h1>Telegram Doğruluk mu? Cesaret mi? Oyun Botu</h1>
 </div>
 <p align="center">
-        <a href="https://telegram.dog/JacDc_Bot">~Bot~</a>
+        <a href="https://t.me/RapidDcBot">~BOTUMUZ~</a>
 </p>
 
 ----
